@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { projects } from "./data/projects.js"
+import Home from "./pages/Home.jsx"
 
 function App() {
   console.log(projects);
@@ -7,7 +8,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-500">
       
-      <h1>Barbara Goldbeck</h1>
+      <Home></Home>
      
     </div>
   )
